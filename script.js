@@ -140,5 +140,6 @@ gsap.from(".page5", {
 })
 if(screen.width < 992){
     document.body.innerHTML = "This website is currently available only for laptops.";
+    document.body.style.fontSize = "30px";
 }
     
