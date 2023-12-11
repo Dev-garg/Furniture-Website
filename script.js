@@ -138,4 +138,7 @@ gsap.from(".page5", {
         end: "top 50%"
     }
 })
-
+if(screen.width < 992){
+    document.innerHTML = "This website is currently not available for mobile phones";
+}
+    
